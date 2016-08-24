@@ -1,0 +1,224 @@
+/* Google fonts */
+@import 'https://fonts.googleapis.com/css?family=Baloo+Bhaina';
+@import 'https://fonts.googleapis.com/css?family=PT+Sans';
+@import 'https://fonts.googleapis.com/css?family=Dosis';
+html {
+  height: 100%;
+}
+body
+{
+	background-color: #6C7A89; 
+	text-align: center;
+	font-family: 'Baloo Bhaina', cursive;
+	color: #EEEEEE;
+}
+h1
+{
+	font-size: 3em;
+}
+.box
+{
+	display: flex;
+    font-family: 'PT Sans', sans-serif;
+}
+.file, .folder
+{
+	font-size: 1.5em;
+	text-align: center;
+	padding-right: 2%;
+	padding-left: 2%;
+	height: 10%;
+    border-radius: 10px;
+	margin-left: 3%;
+	word-wrap: break-word;   
+	hyphens: auto;
+	display: inline-block;
+	/* Transition */
+	transition-property: background-color;
+	transition-duration: 1s;
+}
+.file:hover, .folder:hover
+{
+	background-color: #446CB3;
+}
+.file
+{
+	background-color: #913D88;
+}
+.folder
+{
+	background-color: #03A678;
+}
+.type 
+{
+	font-size: 0.8em;
+}
+a
+{
+	text-decoration: none;
+	color: #EEEEEE;
+}
+.actions, .actions-folder
+{
+	font-size: 0.7em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 0em;
+    border-radius: 5px;
+	transition-property: background-color;
+	transition-duration: 1s;
+}
+.actions:hover, .actions-folder:hover 
+{
+	background-color: #67809F;
+}
+.actions
+{
+background-color: #663399;
+}
+.actions-folder
+{
+background-color: #3FC380;
+}
+ul
+{
+list-style:none;
+margin-left:0;
+padding-left:0;
+}
+.alert
+{
+vertical-align: bottom;
+position: absolute; 
+bottom: 0;
+right: 1;
+margin-right: 2%;
+margin-top: 2%;
+padding-left: 2%;
+padding-right: 2%;
+font-size: 1.5em;
+background-color: 87D37C;
+
+/* Transition */
+transition-property: background-color, padding-bottom;
+transition-duration: 1s;
+}
+.alert:hover
+{
+background-color: #1BBC9B;
+padding-bottom: 4%;
+}
+
+/* Message */ 
+.message 
+{
+	margin-top: 10%;
+	font-family: 'PT Sans', sans-serif;
+	background-color: #52B3D9;
+	font-size: 1.6em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	word-wrap: break-word;   
+	hyphens: auto;
+	display: inline-block;
+	transition-property: background-color;
+	transition-duration: 1s;
+}
+.message:hover 
+{
+	background-color: #1E8BC3;
+}
+.yes, .no
+{
+	font-family: 'Dosis', sans-serif;
+	padding-left: 3%;
+	padding-right: 3%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.no /*No btn */
+{
+	background-color: #E74C3C;
+	/* Transition */
+	transition-property: background-color;
+	transition-duration: 0.5s;
+}
+.yes /*Yes btn */
+{
+	background-color: #446CB3;
+	/* Transition */
+	transition-property: background-color;
+	transition-duration: 0.5s;
+}
+.yes:hover, .no:hover 
+{
+	background-color: #16a085;
+}
+
+/*Refresh div */
+.refresh 
+{
+/* Transition */
+transition-property: background-color, padding-right, padding-top;
+transition-duration: 0.5s;
+
+font-size: 1.4em;
+position: absolute;
+background-color: #9B59B6;
+padding-left: 1%;
+padding-right: 1%;
+left: 0;
+}
+.refresh:hover 
+{
+background-color: #8E44AD;
+padding-right: 2.5%;
+padding-top: 0.5%;
+}
+
+/*Back div */
+.back
+{
+/* Transition */
+transition-property: background-color, padding-right, padding-top;
+transition-duration: 0.5s;
+
+font-size: 1.4em;
+position: absolute;
+background-color: #C0392B;
+padding-left: 1%;
+padding-right: 1%;
+right: 0;
+}
+.back:hover 
+{
+background-color: #D64541;
+padding-right: 2.5%;
+padding-top: 0.5%;
+}
+
+
+/* Inputs */
+.input-a
+{
+	border-style: none;
+	background-color: #ececec;
+	font-size: 1em;
+}
+
+/* Update divs */
+.update 
+{
+	font-size: 1.5em;
+	background-color: #4B77BE;
+	margin: 0;
+	padding:0;
+	/* Transition */
+	transition-property: background-color, padding-right, padding-top;
+	transition-duration: 0.5s;
+}
+.update:hover 
+{
+	background-color: #6BB9F0;
+}
